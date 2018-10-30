@@ -2,6 +2,6 @@
 # include <Stdio.h>
 void main()
 {
-  지훈이네 프로젝트
+  printf("수정완료");
 
 }
