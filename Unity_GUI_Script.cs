@@ -124,3 +124,37 @@ public class Cs_TitleMenu : MonoBehaviour {
 
 	}
 }
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Cs_PlayerManagerment : MonoBehaviour {
+
+	//#######################
+	/*  Player Setting */
+	//#######################
+	public static string name 					= null;			// Player Name
+	public static int player_mhp 				= 1;				// Player Max HP
+	public static int player_hp 					= 1;				// Player HP
+	public static float player_speed 			= 5.0f;			// Player Speed
+	public static int player_damage 			= 0;				// Player Damage
+	public static int player_itme_damage 		= 0;				// Player Item Damage
+	public static int player_defence 			= 0;				// Player Defence
+	public static int player_armor_defence 	= 0;				// Player Armor Defence
+	
+
+
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
+
